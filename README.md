@@ -23,12 +23,30 @@ code_release/
 │   └── weighted_voting.ipynb     weighted soft voting over the three probability files
 └── predictions/
     ├── combined_model_predictions.csv   per-image predictions of the reported run
+    ├── dataset_splits.csv               the 60:20:20 split of all 100,149 images
     ├── test_ground_truth.csv            image, class id, class name for the 20,118 test images
     ├── inception_pred.csv               InceptionV3 class probabilities  (90.66%)
     ├── efficient_pred.csv               EfficientNetB0 class probabilities (88.75%)
     ├── resnet_pred_regenerated.csv      ResNet50, re-inference — see the note below (87.89%)
     └── resnet_predicted_labels.csv      ResNet50 predictions of the reported run (89.62%)
 ```
+
+## The dataset metadata
+
+`predictions/dataset_splits.csv` records which of the three subsets each of the 100,149 images
+belongs to: 60,046 train, 19,985 validation, 20,118 test, over 120 classes. Together with
+Table S2 of the supplementary material (per-class counts and the laboratory/field split) and
+the laboratory/field tag in `combined_model_predictions.csv`, it documents the composition of
+the compiled dataset.
+
+Note that `file` alone is not a unique key: 58 filenames occur in two different classes,
+because some source datasets number their files from 1 within each class. The unique key is
+`(class, file)`. No filename occurs twice within the same class, and none appears in more than
+one split, so there is no overlap between train, validation and test at the file level.
+
+The images themselves are not redistributed here. The authors' own images are published as the
+KhetLeaf dataset, doi:10.5281/zenodo.22937993; the other sixteen sources are available from the
+links in Supplementary Table S1, each under its own licence.
 
 ## Reproducing the reported numbers
 
