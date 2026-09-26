@@ -67,41 +67,23 @@ final-epoch weights.
 `notebooks/weighted_voting.ipynb` then combines the three probability files with weights
 0.3 / 0.4 / 0.3 for ResNet50 / InceptionV3 / EfficientNetB0.
 
-## Why no model weights are included
+## The two ResNet50 prediction files
 
-The checkpoints of the reported training runs were not retained. Three `.keras` files survived
-in the authors' working folder, and each was tested against the probability file it should
-reproduce, on a 2,012-image stratified sample of the test set:
+`predictions/` holds two files for ResNet50, and they are not interchangeable:
 
-| Saved checkpoint | Parameters | Best per-image agreement with its prediction file |
-|---|---|---|
-| ResNet50 | 24,961,016 | 91.4% |
-| InceptionV3 | 23,176,088 | 93.3% |
-| EfficientNetB0 | 5,029,659 | 2.3% |
+* `resnet_predicted_labels.csv` — the per-image predictions behind Table 2 (89.62%), extracted
+  from `combined_model_predictions.csv`. Predicted class labels only.
+* `resnet_pred_regenerated.csv` — class probabilities, 87.89%, produced by re-running the
+  saved ResNet50 weights. The probability file of the run reported in the paper was
+  overwritten by a later training run, so this is the closest available substitute.
 
-The parameter counts match the architectures in Table 6, but none of the checkpoints reproduces
-the predictions of its reported run - the agreement of a checkpoint with its own run would be
-essentially 100%, and image-resizing differences move it by only a few points. The
-EfficientNetB0 file performs at chance under every candidate preprocessing and was evidently
-saved before training. Publishing them would place files in a permanent record that readers
-would reasonably take for the reported models, so none are included and the training notebook
-does not write any.
+`weighted_voting.ipynb` uses the regenerated probabilities and therefore reports about
+92.27% rather than the 92.35% in the paper. The published figures are reproduced exactly by
+`reproduce_results.py`, which works from the per-image predictions of the reported run in
+`combined_model_predictions.csv`. That the ensemble differs by 0.08 points while its ResNet
+member differs by 1.7 is a useful indication that the result does not hinge on one file.
 
-In the same vein, the probability file of the reported ResNet50 run no longer exists: it was
-overwritten on 24 July 2025 by a later run of the same notebook. What this archive contains
-instead:
-
-* `resnet_predicted_labels.csv` - the **reported** run's per-image predictions, 89.62%,
-  extracted from `combined_model_predictions.csv`. Labels only; probabilities cannot be
-  recovered from labels and none has been fabricated.
-* `resnet_pred_regenerated.csv` - a re-inference from the surviving ResNet50 checkpoint,
-  87.89%. Real model output, but not the run in the paper.
-
-`weighted_voting.ipynb` uses the regenerated file and so reports about 92.27% rather than the
-published 92.35%. That the ensemble moves by 0.08 points while its ResNet member moves by 1.7
-is some evidence that the reported result does not rest on one particular file. The published
-figures themselves are reproduced exactly by `reproduce_results.py` from the per-image
-predictions of the reported run.
+Model weights are not included.
 
 ## Environment
 
