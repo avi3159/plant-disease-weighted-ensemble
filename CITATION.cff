@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+title: >-
+  Code and prediction artifacts for "A Weighted Soft-Voting Ensemble of CNNs for
+  120-Class Plant Disease Classification on a Large-Scale Laboratory-Field Dataset"
+message: >-
+  If you use this code, please cite the paper given under preferred-citation. If you use
+  the authors' field images, please also cite the KhetLeaf dataset,
+  doi:10.5281/zenodo.22937993.
+type: software
+license: MIT
+abstract: >-
+  Training and weighted soft-voting notebooks, the per-image test-set predictions of
+  ResNet50, InceptionV3 and EfficientNetB0 and of their weighted ensemble, and a script
+  that recomputes the accuracy, macro-averaged precision, recall and F1, multi-class MCC,
+  McNemar tests and bootstrap intervals reported in the paper.
+keywords:
+  - plant disease classification
+  - ensemble learning
+  - soft voting
+  - convolutional neural networks
+  - reproducibility
+authors:
+  - family-names: Chaudhari
+    given-names: Avinash
+    orcid: "https://orcid.org/0009-0000-7246-9279"
+    email: avinash.chaudhari@gecmodasa.ac.in
+  - family-names: Jani
+    given-names: Kuntesh
+    orcid: "https://orcid.org/0000-0001-7225-1878"
+  - family-names: Pandya
+    given-names: Deven
+  - family-names: Sheth
+    given-names: Ravi
+preferred-citation:
+  type: article
+  title: >-
+    A Weighted Soft-Voting Ensemble of CNNs for 120-Class Plant Disease Classification on a
+    Large-Scale Laboratory-Field Dataset
+  year: 2026
+  notes: >-
+    Under review at the time of writing; add the journal, volume, issue, pages and DOI on
+    acceptance.
+  authors:
+    - family-names: Chaudhari
+      given-names: Avinash
+      orcid: "https://orcid.org/0009-0000-7246-9279"
+    - family-names: Jani
+      given-names: Kuntesh
+      orcid: "https://orcid.org/0000-0001-7225-1878"
+    - family-names: Pandya
+      given-names: Deven
+    - family-names: Sheth
+      given-names: Ravi
+references:
+  - type: data
+    title: >-
+      KhetLeaf: a field-captured plant disease image dataset of six crops grown in Gujarat,
+      India
+    doi: 10.5281/zenodo.22937993
+    year: 2026
+    authors:
+      - family-names: Chaudhari
+        given-names: Avinash
+      - family-names: Jani
+        given-names: Kuntesh
+  - type: conference-paper
+    title: Plant Pathology Detection for Massive Heterogeneous Data Using Deep Learning
+    collection-title: >-
+      2023 14th International Conference on Computing Communication and Networking
+      Technologies (ICCCNT)
+    year: 2023
+    start: 1
+    end: 5
+    doi: 10.1109/ICCCNT56998.2023.10307170
+    authors:
+      - family-names: Chaudhari
+        given-names: Avinash
+      - family-names: Jani
+        given-names: Kuntesh
+      - family-names: Patel
+        given-names: Sunil

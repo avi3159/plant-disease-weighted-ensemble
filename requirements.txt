@@ -1,0 +1,12 @@
+# Versions used for the reported results (WSL2 under Windows 11, NVIDIA T1000 8 GB)
+#   python 3.9.19, CUDA 12.5.1, cuDNN 9
+tensorflow==2.18.0
+keras==3.8.0
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+
+# reproduce_results.py needs only numpy and pandas - it implements its metrics directly
+# so the reported numbers do not depend on a scikit-learn or scipy version.
