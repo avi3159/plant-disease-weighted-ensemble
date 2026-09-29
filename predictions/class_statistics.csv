@@ -1,0 +1,121 @@
+plant,class,images,laboratory,laboratory_pct,field,field_pct
+Alstonia,Alstonia Scholaris Diseased,254,254,100.0,0,0.0
+Alstonia,Alstonia Scholaris Healthy,179,179,100.0,0,0.0
+Apple,Apple Apple Scab,1739,1000,57.5,739,42.5
+Apple,Apple Black Rot,1000,1000,100.0,0,0.0
+Apple,Apple Cedar Apple Rust,2251,1000,44.4,1251,55.6
+Apple,Apple Healthy,2780,1645,59.2,1135,40.8
+Apple,Apple Powdery,500,0,0.0,500,100.0
+Apricot,Apricot Diseased,184,184,100.0,0,0.0
+Apricot,Apricot Healthy,86,86,100.0,0,0.0
+Arjun,Arjun Diseased,232,232,100.0,0,0.0
+Arjun,Arjun Healthy,220,220,100.0,0,0.0
+Bael,Bael Diseased,118,118,100.0,0,0.0
+Basil,Basil Healthy,148,148,100.0,0,0.0
+Blueberry,Blueberry Healthy,1615,1502,93.0,113,7.0
+Brinjal,Brinjal Aphids,100,0,0.0,100,100.0
+Brinjal,Brinjal Cercospora Leaf Spot,22,0,0.0,22,100.0
+Brinjal,Brinjal Healthy,47,0,0.0,47,100.0
+Cardamom,Cardamom Blight,280,280,100.0,0,0.0
+Cardamom,Cardamom Healthy,781,0,0.0,781,100.0
+Cardamom,Cardamom Phylosticta Leaf Spot,663,0,0.0,663,100.0
+Cassava,Cassava Bacterial Blight,1219,0,0.0,1219,100.0
+Cassava,Cassava Brown Streak Disease,2174,0,0.0,2174,100.0
+Cassava,Cassava Green Mite,1479,0,0.0,1479,100.0
+Cassava,Cassava Healthy,1100,0,0.0,1100,100.0
+Cassava,Cassava Mosaic Disease,3458,0,0.0,3458,100.0
+Caster Bean,Caster Bean Alternaria Blight,129,0,0.0,129,100.0
+Caster Bean,Caster Bean Cutworms,93,0,0.0,93,100.0
+Caster Bean,Caster Bean Healthy,246,0,0.0,246,100.0
+Cherry,Cherry Healthy,1173,1121,95.6,52,4.4
+Cherry,Cherry Leaf Spot,95,95,100.0,0,0.0
+Cherry,Cherry Powdery Mildew,1052,1052,100.0,0,0.0
+Chilli,Chilli Healthy,100,0,0.0,100,100.0
+Chilli,Chilli Leaf Curl,83,0,0.0,83,100.0
+Chilli,Chilli Leaf Spot,100,0,0.0,100,100.0
+Chilli,Chilli Whitefly,100,0,0.0,100,100.0
+Chilli,Chilli Yellowish,100,0,0.0,100,100.0
+Chinar,Chinar Diseased,120,120,100.0,0,0.0
+Chinar,Chinar Healthy,103,103,100.0,0,0.0
+Citrus,Citrus Black Spot,190,165,86.8,25,13.2
+Citrus,Citrus Canker,241,148,61.4,93,38.6
+Citrus,Citrus Greening,220,200,90.9,20,9.1
+Citrus,Citrus Healthy,80,60,75.0,20,25.0
+Citrus,Citrus Melanose,13,3,23.1,10,76.9
+Citrus,Citrus Scab,15,12,80.0,3,20.0
+Coffee,Coffee Healthy,791,0,0.0,791,100.0
+Coffee,Coffee Red Spider Mite,167,0,0.0,167,100.0
+Coffee,Coffee Rust,602,0,0.0,602,100.0
+Corn,Corn Cercospora Leaf Spot Gray Leaf Spot,1066,1000,93.8,66,6.2
+Corn,Corn Common Rust,1305,1192,91.3,113,8.7
+Corn,Corn Healthy,1162,1162,100.0,0,0.0
+Corn,Corn Northern Leaf Blight,1191,1000,84.0,191,16.0
+Cotton,Cotton Alternaria Leaf Spot,341,0,0.0,341,100.0
+Cotton,Cotton Healthy,261,0,0.0,261,100.0
+Cotton,Cotton Leaf Reddening,86,0,0.0,86,100.0
+Cranberry,Cranberry Diseased,94,94,100.0,0,0.0
+Cranberry,Cranberry Healthy,118,118,100.0,0,0.0
+Cucumber,Cucumber Healthy,341,0,0.0,341,100.0
+Cucumber,Cucumber Ill,350,0,0.0,350,100.0
+Gauva,Gauva Diseased,142,142,100.0,0,0.0
+Gauva,Gauva Healthy,277,277,100.0,0,0.0
+Grape,Grape Black Rot,1244,1181,94.9,63,5.1
+Grape,Grape Esca (Black Measles),1383,1383,100.0,0,0.0
+Grape,Grape Healthy,1230,1178,95.8,52,4.2
+Grape,Grape Leaf blight (Isariopsis Leaf Spot),1076,1076,100.0,0,0.0
+Indian Flat Beans,Indian Flat Beans Cutworms,33,0,0.0,33,100.0
+Indian Flat Beans,Indian Flat Beans Healthy,378,0,0.0,378,100.0
+Indian Flat Beans,Indian Flat Beans Yellow Virus,403,0,0.0,403,100.0
+Jamun,Jamun Diseased,345,345,100.0,0,0.0
+Jamun,Jamun Healthy,279,279,100.0,0,0.0
+Jatropha,Jatropha Diseased,124,124,100.0,0,0.0
+Jatropha,Jatropha Healthy,133,133,100.0,0,0.0
+Lemon,Lemon Diseased,77,77,100.0,0,0.0
+Lemon,Lemon Healthy,159,159,100.0,0,0.0
+Long Bean,Long Bean Healthy,408,0,0.0,408,100.0
+Mango,Mango Diseased,265,265,100.0,0,0.0
+Mango,Mango Healthy,170,170,100.0,0,0.0
+Okra ,Okra Cutworm,225,0,0.0,225,100.0
+Okra ,Okra Fungus,417,0,0.0,417,100.0
+Okra ,Okra Healthy,141,0,0.0,141,100.0
+Okra ,Okra Virus,56,0,0.0,56,100.0
+Orange ,Orange Haunglongbing (Citrus Greening),5507,5507,100.0,0,0.0
+Peach ,Peach Bacterial Spot,2297,2297,100.0,0,0.0
+Peach ,Peach Healthy,1424,1295,90.9,129,9.1
+Pear,Pear Diseased,58,58,100.0,0,0.0
+Pear,Pear Healthy,170,170,100.0,0,0.0
+Pepper bell,Pepper Bell Bacterial Spot,1071,1000,93.4,71,6.6
+Pepper bell,Pepper Bell Healthy,1539,1477,96.0,62,4.0
+Pomegranate,Pomegranate Diseased,272,272,100.0,0,0.0
+Pomegranate,Pomegranate Healthy,287,287,100.0,0,0.0
+Pongamia,Pongamia Pinnata Diseased,276,276,100.0,0,0.0
+Pongamia,Pongamia Pinnata Healthy,322,322,100.0,0,0.0
+Potato,Potato Early Blight,2744,2631,95.9,113,4.1
+Potato,Potato Healthy,2020,2020,100.0,0,0.0
+Potato,Potato Late Blight,2539,2438,96.0,101,4.0
+Raspberry ,Raspberry Healthy,1119,1024,91.5,95,8.5
+Rice,Rice Bacterial Leaf Blight,40,40,100.0,0,0.0
+Rice,Rice Brown Spot,40,40,100.0,0,0.0
+Rice,Rice Leaf Smut,40,40,100.0,0,0.0
+Soybean,Soybean Angular Leaf Spot,432,0,0.0,432,100.0
+Soybean,Soybean Healthy,5582,5090,91.2,492,8.8
+Soybean,Soybean Rust,436,0,0.0,436,100.0
+Squash,Squash Powdery Mildew,1964,1835,93.4,129,6.6
+Strawberry,Strawberry Healthy,1096,1048,95.6,48,4.4
+Strawberry,Strawberry Leaf Scorch,1109,1109,100.0,0,0.0
+Tomato,Tomato Bacterial Spot,2237,2127,95.1,110,4.9
+Tomato,Tomato Early Blight,1088,1000,91.9,88,8.1
+Tomato,Tomato Healthy,1654,1592,96.3,62,3.7
+Tomato,Tomato Late Blight,2020,1908,94.5,112,5.5
+Tomato,Tomato Leaf Mold,1091,1000,91.7,91,8.3
+Tomato,Tomato Septoria Leaf Spot,1922,1771,92.1,151,7.9
+Tomato,Tomato Spider Mites Two-spotted Spider Mite,1676,1676,100.0,0,0.0
+Tomato,Tomato Target Spot,1404,1404,100.0,0,0.0
+Tomato,Tomato Tomato Mosaic Virus,1054,1000,94.9,54,5.1
+Tomato,Tomato Tomato Yellow Leaf Curl Virus,5433,5357,98.6,76,1.4
+Walnut,Walnut Diseased,285,285,100.0,0,0.0
+Walnut,Walnut Healthy,93,93,100.0,0,0.0
+Wheat,Wheat Brown Rust,1128,0,0.0,1128,100.0
+Wheat,Wheat Healthy,1497,0,0.0,1497,100.0
+Wheat,Wheat Septoria Leaf Spot,97,0,0.0,97,100.0
+Wheat,Wheat Yellow Rust,1364,30,2.2,1334,97.8
